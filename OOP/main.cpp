@@ -67,7 +67,6 @@ using namespace std;
             
         };
     private:
-//release two fields since only 2 fields are dynamically set
         void deleteName(Houses* house, int position) { delete[] house[position].name; }
         void deleteAdress(Houses* house, int position) { delete[] house[position].adress; }
     };
