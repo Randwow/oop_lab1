@@ -43,35 +43,6 @@ using namespace std;
             // seter and getter for numberOfFlats
         void setnumberOfFlats(int number){numberOfFlats = number;}
         int getnumberOfFlats(){return numberOfFlats;}
-//        void sortingArray(Houses* house, int n){
-//                Houses temp;
-//                int choice{0};
-//                printf("1.Sort Ascending by flats\n2.Sort Descending by alpfabet\n");
-//                scanf("%d", &choice);
-//                switch (choice){
-//                case 1:
-//                    for (int i = 0; i < n; i++)
-//                        for (int j = n - 1; j >= i + 1; j--)
-//                            if (house[j].numberOfFlats < house[j - 1].numberOfFlats){
-//                                temp = house[j];
-//                                house[j] = house[j - 1];
-//                                house[j - 1] = temp;
-//                            }
-//                    break;
-//                case 2:
-//                    for (int i = 0; i < n-1; i++)
-//                        for (int j = i + 1; j < n; j++)
-//                            if (strcmp(house[i].name, house[j].name)>0){
-//                                temp = house[j];
-//                                house[j] = house[j - 1];
-//                                house[j - 1] = temp;
-//                            }
-//                    break;
-//                default:
-//                    printf("Try again.\n");
-//                    break;
-//                }
-//            }
         void changeValue(char* value, Houses* house, int position, int indicator){
             switch (indicator){
                 case 1:
